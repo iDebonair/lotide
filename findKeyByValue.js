@@ -5,9 +5,6 @@ const assertEqual = (actual, expected) => {
     console.log (`Assertion Failed: ${actual}!== ${expected}`);
   }
 };
-assertEqual("Lighthouse Labs", "Bootcamp");
-assertEqual(1, 1);
-
 const bestTVShowsByGenre = { 
   sci_fi: "The Expanse",
   comedy: "Brooklyn Nine-Nine",
@@ -21,8 +18,5 @@ function findKeyByValue (actual, expected){
   }
   return undefined;
 }
-  
-
-
 assertEqual(findKeyByValue(bestTVShowsByGenre, "The Wire"), "drama");
 assertEqual(findKeyByValue(bestTVShowsByGenre, "That '70s Show"), undefined);

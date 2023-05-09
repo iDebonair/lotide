@@ -26,7 +26,7 @@
     const keys2 = Object.keys(object2);
     if(keys1.length !== keys2.length){
       return false;
-    }
+    } 
   for (let key of keys1) {
     if (Array.isArray(object1[key]) && Array.isArray(object2[key])) {
       if (!eqArrays(object1[key], object2[key])) {
