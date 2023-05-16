@@ -1,8 +1,8 @@
 {
-  "name": "lotide",
+  "name": "@idebonair/lotide",
   "version": "1.0.0",
-  "description": "",
-  "main": "assertArraysEqual.js",
+  "description": "This is part of my learnings as a developer at lighthouse labs",
+  "main": "index.js",
   "directories": {
     "test": "test"
   },
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/iDebonair/lotide.git"
   },
-  "author": "",
+  "author": "Femi Owolabi",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/iDebonair/lotide/issues"
